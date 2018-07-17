@@ -268,3 +268,10 @@ ro.mot.build.product.increment=24
 ro.mot.build.version.release=24.24
 ro.mot.ignore_csim_appid=true
 ro.cutoff_voltage_mv=3200
+
+#ADB at boot
+ro.secure=0
+ro.adb.secure=0
+persist.service.debuggable=1
+persist.service.adb.enable=1
+persist.sys.usb.config=mtp,adb
